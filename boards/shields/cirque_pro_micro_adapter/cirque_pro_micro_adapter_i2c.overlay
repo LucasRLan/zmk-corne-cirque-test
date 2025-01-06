@@ -5,7 +5,7 @@
         compatible = "cirque,pinnacle";
         reg = <0x2a>;
         status = "okay";
-        dr-gpios = <&pro_micro 1 (GPIO_ACTIVE_HIGH)>; // DR pin assigned to D1, like nice!view CS pin
+        dr-gpios = <&gpio0 6 (GPIO_ACTIVE_HIGH)>; // DR pin assigned to D1, like nice!view CS pin
 
         sensitivity = "4x";
         sleep;
